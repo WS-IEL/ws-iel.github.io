@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('./background.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.countdown-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.big-text {
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0 1rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
